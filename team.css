@@ -1,0 +1,39 @@
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.member h2 {
+    font-size: 24px;
+    color: #ff0080;
+}
+
+.member p {
+    color: #121212;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
