@@ -1,9 +1,13 @@
 body {
+    overflow: hidden;
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #0b0b0d;
     color: #ffffff;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -72,14 +76,24 @@ nav {
 }
 
 .hero {
-    height: 100vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('background.jpg'); /* Image de fond à remplacer */
     background-size: cover;
     background-position: center;
     position: relative;
+    z-index: -1;
+}
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ajoutez cette ligne */
 }
 
 .hero::before {
@@ -123,9 +137,11 @@ nav {
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #121212;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* ajustez l'opacité comme vous le souhaitez */
+    /* le reste de votre CSS pour le pied de page */
 }
 
 footer a {
@@ -136,3 +152,15 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.pegi-logo {
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+}
+.alcool-logo {
+    position: absolute;
+    left: 60px;
+    bottom: 0;
+}
+
