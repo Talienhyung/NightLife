@@ -24,10 +24,7 @@ Une fois cela fait le jeu devrait se lancer vous pouvez alors lancer une partie,
 Bonne chance a vous dans cette "vie nocturne".
 
 ## Controle Du Jeu
-
-![Alt text](/relative/path/to/img.jpg?raw=true "Controle Du Jeu")
-
-
+![image](https://github.com/Talienhyung/NightLife/assets/144994847/fbe5980a-e2a7-4d60-812a-a22e473e22a5)
 
 ## Tech Stack
 
